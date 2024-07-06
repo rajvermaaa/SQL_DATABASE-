@@ -100,6 +100,7 @@ app.patch("/user/:id",(req,res) => {
 
 });
 
+//used to connect server -> localhost:8080/user
 app.listen("8080",() => {
     console.log("Server is listening to the port 8080");
 });
